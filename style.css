@@ -460,6 +460,7 @@ button {
     background: url(img/brighter-sewing-pic.png);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .footer-title {
