@@ -1,0 +1,512 @@
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1200px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+body {
+  font-family: Inter;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  border-radius: 100%;
+  border: 3px solid #a497a3;
+  margin-right: 40px;
+}
+
+.header-item {
+  font-size: 24px;
+  font-weight: 200;
+  margin-right: 20px;
+  color: white;
+}
+
+.header-item:hover {
+  color: #a497a3;
+}
+
+.background {
+  background-image: url(../img/brighter-sewing-pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+}
+
+.traditional-title {
+  font-size: 70px;
+  font-weight: 200;
+  padding-top: 50px;
+}
+
+.traditional-text {
+  font-size: 21px;
+  font-weight: 300;
+  width: 570px;
+}
+
+.traditional-button {
+  padding: 16px 34px;
+  font-size: 24px;
+  font-weight: 300;
+  border-radius: 17px;
+  background: #a497a3;
+  margin-top: 33px;
+  margin-bottom: 170px;
+}
+
+.order-a {
+  color: #FFF;
+}
+
+.traditional-button:hover {
+  background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0) 85.32%), #a497a3;
+}
+
+.section-why {
+  background-image: linear-gradient(90deg, #161515 8.49%, rgba(3, 3, 3, 0) 77.17%), url(../img/sewbk.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 121px;
+  padding-top: 55px;
+  background-size: cover;
+}
+
+.why-title {
+  color: #D9D9D9;
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  width: 735px;
+  padding-top: 55px;
+  padding-bottom: 132px;
+}
+
+.why-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why-item-text {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 13px;
+  text-align: center;
+}
+
+.other-item {
+  padding-left: 206px;
+}
+
+.section-where {
+  color: white;
+  background: #757579;
+  padding-bottom: 50px;
+  padding-top: 66px;
+}
+
+.where-title {
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-bottom: 44px;
+}
+
+.where-box {
+  display: flex;
+}
+
+.map {
+  border-radius: 8%;
+  margin-bottom: 50px;
+}
+
+.where-sub {
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 132px;
+  padding-bottom: 49px;
+}
+
+.links {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.links:hover {
+  color: #a497a3;
+}
+
+.where-time {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.where-link {
+  padding-bottom: 65px;
+  padding-left: 132px;
+}
+
+.where-item {
+  padding-top: 10px;
+  padding-left: 132px;
+  padding-bottom: 30px;
+}
+
+.where-time {
+  padding-left: 110px;
+}
+
+.section-quality {
+  height: 900px;
+}
+
+.quality-title {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 300;
+  padding-top: 145px;
+  padding-left: 400px;
+}
+
+.quality-list {
+  display: flex;
+}
+
+.quality-item {
+  height: 197px;
+  width: 300px;
+  margin-right: 42px;
+}
+
+.dress {
+  height: 300px;
+  width: 300px;
+}
+
+.dress-list {
+  padding-right: 35px;
+}
+
+.quality-itemlist-text {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 35px;
+  padding-top: 32px;
+  padding-bottom: 50px;
+  background: rgba(242, 242, 242, 0.3);
+  -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.item2 {
+  margin-top: 70px;
+}
+
+.item3 {
+  margin-top: 140px;
+}
+
+.prices-title {
+  color: #928f8f;
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  padding-top: 55px;
+}
+
+.additional-sub {
+  color: #928f8f;
+  font-family: Italiana;
+  font-size: 35px;
+  font-weight: 300;
+  padding-left: 650px;
+}
+
+.box-price {
+  display: flex;
+}
+
+.price-size-list {
+  margin-left: 70px;
+  margin-top: 50px;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.l2 {
+  margin-left: 200px;
+}
+
+.order-title {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 300;
+  padding-top: 145px;
+  margin-bottom: 60px;
+  color: #606060;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  background-color: #a497a3;
+  color: #FFF;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow-title {
+  font-size: 70px;
+  font-weight: 100;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.portfoliocard-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 30px;
+  margin-left: 60px;
+}
+
+.portfoliocard-list2 {
+  margin-left: 140px;
+}
+
+.portfoliocard {
+  width: 150px;
+  border: 1px solid #EEE;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfoliocard:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(113, 117, 120, 0.9);
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+  transform: translatey(0);
+}
+
+.overlay-text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  padding: 50px 19px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.input {
+  margin-left: 65px;
+}
+
+.label1 {
+  font-size: 30px;
+}
+
+.fabric-img {
+  border-radius: 10%;
+  margin-left: 20px;
+}
+
+.numbertext {
+  color: #ccbece;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.machine {
+  width: 250px;
+  padding-top: 10px;
+  margin-left: 700px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.popup-input {
+  color: #000;
+  background: #F5F5F5;
+  border: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 16px;
+  padding: 21px 22px;
+  width: 412px;
+  margin-left: 83px;
+  margin-right: 20px;
+  margin-bottom: 71px;
+}
+
+.slide-button {
+  padding: 16px 34px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #FFF;
+  border-radius: 17px;
+  background: #7f7a7f;
+  margin-top: 33px;
+  margin-left: 420px;
+}
+
+.footer {
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url(../img/brighter-sewing-pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.footer-title {
+  font-size: 50px;
+  font-weight: 300;
+  padding-bottom: 14px;
+  padding-right: 77px;
+}
+
+.logo2 {
+  border-radius: 100%;
+  border: 3px solid #a497a3;
+  margin-right: 50px;
+}
+
+.footer-text {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.footer-box {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */

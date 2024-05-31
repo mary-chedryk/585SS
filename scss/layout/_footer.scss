@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../img/brighter-sewing-pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.footer-title {
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 14px;
+    padding-right: 77px;
+}
+
+.logo2 {
+    border-radius: 100%;
+    border: 3px solid #a497a3;
+    margin-right: 50px;
+}
+
+.footer-text {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.footer-box {
+    display: flex;
+}

@@ -1,0 +1,30 @@
+.header-list {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.logo {
+    border-radius: 100%;
+    border: 3px solid #a497a3;
+    margin-right: 40px;
+}
+
+.header-item {
+    font-size: 24px;
+    font-weight: 200;
+    margin-right: 20px;
+    color: white;
+}
+
+.header-item:hover {
+    color: #a497a3;
+}
+
+.background {
+    background-image: url(../img/brighter-sewing-pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
