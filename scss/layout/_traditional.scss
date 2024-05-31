@@ -1,29 +1,33 @@
-.traditional-title {
-    font-size: 70px;
-    font-weight: 200;
-    padding-top: 50px;
-}
+.section-traditional {
 
-.traditional-text {
-    font-size: 21px;
-    font-weight: 300;
-    width: 570px;
-}
 
-.traditional-button {
-    padding: 16px 34px;
-    font-size: 24px;
-    font-weight: 300;
-    border-radius: 17px;
-    background: #a497a3;
-    margin-top: 33px;
-    margin-bottom: 170px;
-}
+    .traditional-title {
+        font-size: 70px;
+        font-weight: 200;
+        padding-top: 50px;
+    }
 
-.order-a {
-    color: #FFF;
-}
+    .traditional-text {
+        font-size: 21px;
+        font-weight: 300;
+        width: 570px;
+    }
 
-.traditional-button:hover {
-    background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 85.32%), #a497a3;
+    .traditional-button {
+        padding: 16px 34px;
+        font-size: 24px;
+        font-weight: 300;
+        border-radius: 17px;
+        background: #a497a3;
+        margin-top: 33px;
+        margin-bottom: 170px;
+    }
+
+    .order-a {
+        color: #FFF;
+    }
+
+    .traditional-button:hover {
+        background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0.00) 85.32%), #a497a3;
+    }
 }

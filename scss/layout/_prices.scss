@@ -1,31 +1,34 @@
-.prices-title {
-    color: #928f8f;
-    font-family: Italiana;
-    font-size: 48px;
-    font-weight: 400;
-    padding-top: 55px;
-}
+.section-prices {
 
-.additional-sub {
-    color: #928f8f;
-    font-family: Italiana;
-    font-size: 35px;
-    font-weight: 300;
-    padding-left: 650px;
-}
+    .prices-title {
+        color: #928f8f;
+        font-family: Italiana;
+        font-size: 48px;
+        font-weight: 400;
+        padding-top: 55px;
+    }
 
-.box-price {
-    display: flex;
-}
+    .additional-sub {
+        color: #928f8f;
+        font-family: Italiana;
+        font-size: 35px;
+        font-weight: 300;
+        padding-left: 650px;
+    }
 
-.price-size-list {
-    margin-left: 70px;
-    margin-top: 50px;
-    font-family: Inter;
-    font-size: 40px;
-    font-weight: 200;
-}
+    .box-price {
+        display: flex;
+    }
 
-.l2 {
-    margin-left: 200px;
+    .price-size-list {
+        margin-left: 70px;
+        margin-top: 50px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 200;
+    }
+
+    .l2 {
+        margin-left: 200px;
+    }
 }

@@ -6,26 +6,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-}
 
-.footer-title {
-    font-size: 50px;
-    font-weight: 300;
-    padding-bottom: 14px;
-    padding-right: 77px;
-}
 
-.logo2 {
-    border-radius: 100%;
-    border: 3px solid #a497a3;
-    margin-right: 50px;
-}
+    .footer-title {
+        font-size: 50px;
+        font-weight: 300;
+        padding-bottom: 14px;
+        padding-right: 77px;
+    }
 
-.footer-text {
-    font-size: 25px;
-    font-weight: 300;
-}
+    .logo2 {
+        border-radius: 100%;
+        border: 3px solid #a497a3;
+        margin-right: 50px;
+    }
 
-.footer-box {
-    display: flex;
+    .footer-text {
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .footer-box {
+        display: flex;
+    }
 }

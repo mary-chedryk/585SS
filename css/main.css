@@ -41,50 +41,44 @@ body {
   font-family: Inter;
 }
 
-.header-list {
+.header .header-list {
   display: flex;
   align-items: center;
   padding-top: 55px;
   padding-bottom: 40px;
 }
-
-.logo {
+.header .header-list .logo {
   border-radius: 100%;
   border: 3px solid #a497a3;
   margin-right: 40px;
 }
-
-.header-item {
+.header .header-list .header-item {
   font-size: 24px;
   font-weight: 200;
   margin-right: 20px;
   color: white;
 }
-
-.header-item:hover {
+.header .header-list .header-item:hover {
   color: #a497a3;
 }
-
-.background {
+.header .background {
   background-image: url(../img/brighter-sewing-pic.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
 }
 
-.traditional-title {
+.section-traditional .traditional-title {
   font-size: 70px;
   font-weight: 200;
   padding-top: 50px;
 }
-
-.traditional-text {
+.section-traditional .traditional-text {
   font-size: 21px;
   font-weight: 300;
   width: 570px;
 }
-
-.traditional-button {
+.section-traditional .traditional-button {
   padding: 16px 34px;
   font-size: 24px;
   font-weight: 300;
@@ -93,12 +87,10 @@ body {
   margin-top: 33px;
   margin-bottom: 170px;
 }
-
-.order-a {
+.section-traditional .order-a {
   color: #FFF;
 }
-
-.traditional-button:hover {
+.section-traditional .traditional-button:hover {
   background: linear-gradient(81deg, #000 -110.34%, rgba(0, 0, 0, 0) 85.32%), #a497a3;
 }
 
@@ -110,8 +102,7 @@ body {
   padding-top: 55px;
   background-size: cover;
 }
-
-.why-title {
+.section-why .why-title {
   color: #D9D9D9;
   font-family: Italiana;
   font-size: 48px;
@@ -120,21 +111,18 @@ body {
   padding-top: 55px;
   padding-bottom: 132px;
 }
-
-.why-list {
+.section-why .why-list {
   display: flex;
   justify-content: space-between;
 }
-
-.why-item-text {
+.section-why .why-item-text {
   color: #FFF;
   font-size: 24px;
   font-weight: 700;
   padding-top: 13px;
   text-align: center;
 }
-
-.other-item {
+.section-why .other-item {
   padding-left: 206px;
 }
 
@@ -144,94 +132,78 @@ body {
   padding-bottom: 50px;
   padding-top: 66px;
 }
-
-.where-title {
+.section-where .where-title {
   font-family: Italiana;
   font-size: 48px;
   font-weight: 400;
   padding-top: 50px;
   padding-bottom: 44px;
 }
-
-.where-box {
+.section-where .where-box {
   display: flex;
 }
-
-.map {
+.section-where .map {
   border-radius: 8%;
   margin-bottom: 50px;
 }
-
-.where-sub {
+.section-where .where-sub {
   font-size: 40px;
   font-weight: 400;
   padding-left: 132px;
   padding-bottom: 49px;
 }
-
-.links {
+.section-where .links {
   color: #FFF;
   font-size: 24px;
   font-weight: 300;
 }
-
-.links:hover {
+.section-where .links:hover {
   color: #a497a3;
 }
-
-.where-time {
+.section-where .where-time {
   text-align: center;
   font-size: 24px;
   font-weight: 200;
 }
-
-.where-link {
+.section-where .where-link {
   padding-bottom: 65px;
   padding-left: 132px;
 }
-
-.where-item {
+.section-where .where-item {
   padding-top: 10px;
   padding-left: 132px;
   padding-bottom: 30px;
 }
-
-.where-time {
+.section-where .where-time {
   padding-left: 110px;
 }
 
 .section-quality {
   height: 900px;
 }
-
-.quality-title {
+.section-quality .quality-title {
   font-family: Inter;
   font-size: 64px;
   font-weight: 300;
   padding-top: 145px;
   padding-left: 400px;
 }
-
-.quality-list {
+.section-quality .quality-list {
   display: flex;
 }
-
-.quality-item {
+.section-quality .quality-list .quality-item {
   height: 197px;
   width: 300px;
   margin-right: 42px;
 }
-
-.dress {
+.section-quality .quality-list .dress {
   height: 300px;
   width: 300px;
 }
-
-.dress-list {
+.section-quality .quality-list .dress-list {
   padding-right: 35px;
 }
-
-.quality-itemlist-text {
+.section-quality .quality-list .quality-itemlist-text {
   font-size: 20px;
   font-weight: 500;
   padding-left: 35px;
@@ -242,48 +214,42 @@ body {
           backdrop-filter: blur(18px);
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
 }
-
-.item2 {
+.section-quality .quality-list .item2 {
   margin-top: 70px;
 }
-
-.item3 {
+.section-quality .quality-list .item3 {
   margin-top: 140px;
 }
 
-.prices-title {
+.section-prices .prices-title {
   color: #928f8f;
   font-family: Italiana;
   font-size: 48px;
   font-weight: 400;
   padding-top: 55px;
 }
-
-.additional-sub {
+.section-prices .additional-sub {
   color: #928f8f;
   font-family: Italiana;
   font-size: 35px;
   font-weight: 300;
   padding-left: 650px;
 }
-
-.box-price {
+.section-prices .box-price {
   display: flex;
 }
-
-.price-size-list {
+.section-prices .price-size-list {
   margin-left: 70px;
   margin-top: 50px;
   font-family: Inter;
   font-size: 40px;
   font-weight: 200;
 }
-
-.l2 {
+.section-prices .l2 {
   margin-left: 200px;
 }
 
-.order-title {
+.section-order .order-title {
   font-family: Inter;
   font-size: 64px;
   font-weight: 300;
@@ -291,8 +257,7 @@ body {
   margin-bottom: 60px;
   color: #606060;
 }
-
-.slideshow-container {
+.section-order .slideshow-container {
   max-width: 1000px;
   height: 500px;
   position: relative;
@@ -300,9 +265,8 @@ body {
   background-color: #a497a3;
   color: #FFF;
 }
-
-.prev,
-.next {
+.section-order .prev,
+.section-order .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -318,58 +282,49 @@ body {
      -moz-user-select: none;
           user-select: none;
 }
-
-.next {
+.section-order .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-.prev:hover,
-.next:hover {
+.section-order .prev:hover,
+.section-order .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
-.slideshow-title {
+.section-order .slideshow-title {
   font-size: 70px;
   font-weight: 100;
   padding-top: 50px;
   padding-left: 50px;
   padding-bottom: 20px;
 }
-
-.portfoliocard-list {
+.section-order .portfoliocard-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 30px;
   margin-left: 60px;
 }
-
-.portfoliocard-list2 {
+.section-order .portfoliocard-list2 {
   margin-left: 140px;
 }
-
-.portfoliocard {
+.section-order .portfoliocard {
   width: 150px;
   border: 1px solid #EEE;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfoliocard:hover {
+.section-order .portfoliocard:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
-.box {
+.section-order .box {
   position: relative;
   overflow: hidden;
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.overlay {
+.section-order .box .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -379,12 +334,10 @@ body {
   transform: translatey(100%);
   transition: transform 250ms ease-in-out;
 }
-
-.box:hover .overlay {
+.section-order .box .box:hover .overlay {
   transform: translatey(0);
 }
-
-.overlay-text {
+.section-order .box .overlay-text {
   color: #FFF;
   font-size: 18px;
   font-weight: 400;
@@ -392,39 +345,32 @@ body {
   letter-spacing: 0.54px;
   padding: 50px 19px;
 }
-
-.label {
+.section-order .label {
   font-size: 20px;
 }
-
-.input {
+.section-order .input {
   margin-left: 65px;
 }
-
-.label1 {
+.section-order .label1 {
   font-size: 30px;
 }
-
-.fabric-img {
+.section-order .fabric-img {
   border-radius: 10%;
   margin-left: 20px;
 }
-
-.numbertext {
+.section-order .numbertext {
   color: #ccbece;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
-
-.machine {
+.section-order .machine {
   width: 250px;
   padding-top: 10px;
   margin-left: 700px;
 }
-
-.dot {
+.section-order .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -434,17 +380,14 @@ body {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-.active,
-.dot:hover {
+.section-order .active,
+.section-order .dot:hover {
   background-color: #717171;
 }
-
-.fade {
+.section-order .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -453,7 +396,7 @@ body {
     opacity: 1;
   }
 }
-.popup-input {
+.section-order .popup-input {
   color: #000;
   background: #F5F5F5;
   border: none;
@@ -467,8 +410,7 @@ body {
   margin-right: 20px;
   margin-bottom: 71px;
 }
-
-.slide-button {
+.section-order .slide-button {
   padding: 16px 34px;
   font-size: 24px;
   font-weight: 300;
@@ -488,25 +430,21 @@ body {
   background-size: cover;
   color: white;
 }
-
-.footer-title {
+.footer .footer-title {
   font-size: 50px;
   font-weight: 300;
   padding-bottom: 14px;
   padding-right: 77px;
 }
-
-.logo2 {
+.footer .logo2 {
   border-radius: 100%;
   border: 3px solid #a497a3;
   margin-right: 50px;
 }
-
-.footer-text {
+.footer .footer-text {
   font-size: 25px;
   font-weight: 300;
 }
-
-.footer-box {
+.footer .footer-box {
   display: flex;
 }/*# sourceMappingURL=main.css.map */

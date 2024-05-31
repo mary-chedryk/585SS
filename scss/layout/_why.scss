@@ -5,31 +5,32 @@
     padding-bottom: 121px;
     padding-top: 55px;
     background-size: cover;
-}
 
-.why-title {
-    color: #D9D9D9;
-    font-family: Italiana;
-    font-size: 48px;
-    font-weight: 400;
-    width: 735px;
-    padding-top: 55px;
-    padding-bottom: 132px;
-}
 
-.why-list {
-    display: flex;
-    justify-content: space-between;
-}
+    .why-title {
+        color: #D9D9D9;
+        font-family: Italiana;
+        font-size: 48px;
+        font-weight: 400;
+        width: 735px;
+        padding-top: 55px;
+        padding-bottom: 132px;
+    }
 
-.why-item-text {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 700;
-    padding-top: 13px;
-    text-align: center;
-}
+    .why-list {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.other-item {
-    padding-left: 206px;
+    .why-item-text {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 13px;
+        text-align: center;
+    }
+
+    .other-item {
+        padding-left: 206px;
+    }
 }
